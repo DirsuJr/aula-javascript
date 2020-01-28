@@ -6,4 +6,4 @@ let ip = i / 100;
 
 let J = C * ip * n
 
-console.log("O preço do juros é de " + J + " reais." )
+document.write("O preço do juros é de " + J + " reais." )

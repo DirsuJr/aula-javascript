@@ -4,4 +4,4 @@ let dias = 30 * meses;
 
 meses= parseFloat(meses);
 
-console.log("O número de dias em " + meses + " meses são " + dias + " dias. ");
+document.write("O número de dias em " + meses + " meses são " + dias + " dias. ");

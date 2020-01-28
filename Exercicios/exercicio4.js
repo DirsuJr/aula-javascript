@@ -9,4 +9,4 @@ valor3= parseFloat(valor3);
 let media = (valor1 + valor2 + valor3) / 3;
 
 
-console.log("A média de " + valor1 + " + " + valor2 + " + " + valor3 + " é igual a " + media + ".");
+document.write("A média de " + valor1 + " + " + valor2 + " + " + valor3 + " é igual a " + media + ".");

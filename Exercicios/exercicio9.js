@@ -10,7 +10,7 @@ S= parseFloat(S);
 
 let To = Sr + S;
 
-console.log("O reajuste aumenta seu salário em " + Sr + " reais, sendo agora de " + To + " reais." )
+document.write("O reajuste aumenta seu salário em " + Sr + " reais, sendo agora de " + To + " reais." )
 
 console.log(typeof(Sr));
 console.log(typeof(S));

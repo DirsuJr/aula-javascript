@@ -9,4 +9,4 @@ let Y = CF * PI
 
 let CT = CF + X + Y
 
-console.log( "O custo final é de " + CT )
+document.write( "O custo final é de " + CT )

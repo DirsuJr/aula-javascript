@@ -1,19 +1,7 @@
-let limite, multaPorKilo, P, E, M;
-limite = 50;
-multaPorKilo = 4;
+let n;
 
-P = promp("Quantos Kilos de peixe você pescou?");
-E = P - limite;
+n = prompt("Digite o valor");
 
-if(E > 0){
-    M = E * multaPorKilo;
-    document.write("KG Total: " + P);
-    document.write("<br>KG Excesso: " + E);
-    document.write("<br>Multa: R$ " + M);
-}
-
-else{
-    document.write("KG Total: " + E);
-    document.write("<br>Excesso: 0");
-    document.write("<br>Multa: R$ 0");
+for (x = 0 ; x <= n ; x = x + 2) {
+    document.write ("<br>" + x );
 }
